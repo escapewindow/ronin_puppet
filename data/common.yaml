@@ -33,6 +33,8 @@ scriptworker_users:
       supported_behaviors:
         - mac_sign
         - mac_sign_and_pkg
+      ed_key_filename: ""
+      notarization_users: []
       dmg_prefix: "dep1"
       worker_id_suffix: "a"
       cot_product: "firefox"
@@ -42,6 +44,8 @@ scriptworker_users:
       supported_behaviors:
         - mac_sign
         - mac_sign_and_pkg
+      ed_key_filename: ""
+      notarization_users: []
       dmg_prefix: "dep1"
       worker_id_suffix: "b"
       cot_product: "firefox"
@@ -51,6 +55,8 @@ scriptworker_users:
       supported_behaviors:
         - mac_sign
         - mac_sign_and_pkg
+      ed_key_filename: ""
+      notarization_users: []
       dmg_prefix: "tb"
       worker_id_suffix: "tb"
       cot_product: "thunderbird"
