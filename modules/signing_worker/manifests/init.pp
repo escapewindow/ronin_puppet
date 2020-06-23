@@ -101,7 +101,7 @@ define signing_worker (
       force    => true,
     }
     # This has credentials in it. Clean up.
-    ->file { 'Remove widevine directory':
+    ->file { '${scriptworker_base}/remove widevine directory':
         ensure  => absent,
         path    => "${widevine_clone_dir}/.git",
         recurse => true,
