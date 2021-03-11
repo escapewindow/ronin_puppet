@@ -37,7 +37,7 @@ class puppet::periodic (
                     owner   => 'root',
                     group   => 'wheel',
                     mode    => '0755',
-                    source  => 'puppet:///modules/puppe/periodic_launchctl_wrapper.sh';
+                    source  => 'puppet:///modules/puppet/periodic_launchctl_wrapper.sh';
 
                 '/Library/LaunchDaemons/com.mozilla.periodic.plist':
                     owner   => 'root',
